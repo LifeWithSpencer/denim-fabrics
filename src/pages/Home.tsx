@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 import backgroundImage1 from '@/assets/backgroundimage1.jpeg';
 import backgroundImage2 from '@/assets/backgroundimage2.jpeg';
 
@@ -31,8 +30,6 @@ const HeroSlider = () => {
   }, []);
 
   const goToSlide = (index: number) => setCurrentSlide(index);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
 
   return (
     <section className="relative h-screen min-h-[700px] overflow-hidden">
@@ -54,10 +51,10 @@ const HeroSlider = () => {
         </motion.div>
       </AnimatePresence>
 
-      {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
+      {/* Content - Centered */}
+      <div className="relative z-10 h-full flex items-center justify-center">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mx-auto text-center">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentSlide}
@@ -88,7 +85,7 @@ const HeroSlider = () => {
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.6 }}
-                  className="text-lg md:text-xl text-primary-foreground/80 mb-10 max-w-xl leading-relaxed"
+                  className="text-lg md:text-xl text-primary-foreground/80 mb-10 max-w-xl mx-auto leading-relaxed"
                 >
                   {slides[currentSlide].description}
                 </motion.p>
@@ -97,7 +94,7 @@ const HeroSlider = () => {
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.8 }}
-                  className="flex flex-col sm:flex-row gap-4"
+                  className="flex flex-col sm:flex-row gap-4 justify-center"
                 >
                   <Link to="/services" className="btn-gold text-sm uppercase tracking-wider">
                     Explore Collections
@@ -112,23 +109,6 @@ const HeroSlider = () => {
         </div>
       </div>
 
-      {/* Navigation Arrows */}
-      <div className="absolute left-6 right-6 top-1/2 -translate-y-1/2 flex justify-between z-20 pointer-events-none">
-        <button
-          onClick={prevSlide}
-          className="w-12 h-12 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 flex items-center justify-center text-primary-foreground hover:bg-gold hover:text-navy hover:border-gold transition-all duration-300 pointer-events-auto"
-          aria-label="Previous slide"
-        >
-          <ChevronLeft size={24} />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="w-12 h-12 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 flex items-center justify-center text-primary-foreground hover:bg-gold hover:text-navy hover:border-gold transition-all duration-300 pointer-events-auto"
-          aria-label="Next slide"
-        >
-          <ChevronRight size={24} />
-        </button>
-      </div>
 
       {/* Slide Indicators */}
       <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex gap-3">
