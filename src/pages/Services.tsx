@@ -89,7 +89,7 @@ const Services = () => {
             </h2>
             <div className="section-divider mb-8" />
             <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
-              From bespoke accessories to premium fabrics, LUXORA TEXTILES delivers 
+              From bespoke accessories to premium fabrics, DENIM FABRIC delivers 
               exceptional quality across every category of textile services.
             </p>
           </motion.div>

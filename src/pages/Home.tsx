@@ -177,14 +177,14 @@ const FeaturedSection = () => {
           className="text-center mb-16"
         >
           <span className="text-gold text-sm uppercase tracking-[0.3em] mb-4 block">
-            Welcome to LUXORA
+            Welcome to DENIM FABRIC
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
             Premium Textile Excellence
           </h2>
           <div className="section-divider mb-8" />
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed text-lg">
-            At LUXORA TEXTILES, we believe that exceptional fabrics are the foundation of 
+            At DENIM FABRIC, we believe that exceptional fabrics are the foundation of 
             extraordinary creations. Our curated selection combines timeless beauty with 
             uncompromising quality.
           </p>

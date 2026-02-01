@@ -28,7 +28,7 @@ const Contact = () => {
     
     toast({
       title: "Message Sent Successfully",
-      description: "Thank you for contacting LUXORA TEXTILES. We will respond within 24 hours.",
+      description: "Thank you for contacting DENIM FABRIC. We will respond within 24 hours.",
     });
     
     setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
@@ -249,12 +249,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Email</h4>
-                    <a href="mailto:info@luxoratextiles.com" className="text-muted-foreground hover:text-gold transition-colors">
-                      info@luxoratextiles.com
+                    <a href="mailto:info@denimfabric.com" className="text-muted-foreground hover:text-gold transition-colors">
+                      info@denimfabric.com
                     </a>
                     <br />
-                    <a href="mailto:sales@luxoratextiles.com" className="text-muted-foreground hover:text-gold transition-colors">
-                      sales@luxoratextiles.com
+                    <a href="mailto:sales@denimfabric.com" className="text-muted-foreground hover:text-gold transition-colors">
+                      sales@denimfabric.com
                     </a>
                   </div>
                 </div>

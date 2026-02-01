@@ -11,16 +11,16 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-6">
               <div className="flex flex-col">
-                <span className="font-serif text-3xl font-bold tracking-wider text-primary-foreground">
-                  LUXORA
+              <span className="font-serif text-3xl font-bold tracking-wider text-primary-foreground">
+                  DENIM
                 </span>
                 <span className="text-sm tracking-[0.3em] text-gold uppercase">
-                  Textiles
+                  Fabric
                 </span>
               </div>
             </Link>
             <p className="text-primary-foreground/70 leading-relaxed mb-6">
-              Your trusted destination for premium-quality textiles, 
+              Your trusted destination for premium-quality denim and textiles, 
               offering a beautifully curated selection that inspires 
               creativity and elevates every project.
             </p>
@@ -87,8 +87,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-gold flex-shrink-0" />
-                <a href="mailto:info@luxoratextiles.com" className="text-primary-foreground/70 hover:text-gold transition-colors text-sm">
-                  info@luxoratextiles.com
+                <a href="mailto:info@denimfabric.com" className="text-primary-foreground/70 hover:text-gold transition-colors text-sm">
+                  info@denimfabric.com
                 </a>
               </li>
             </ul>
@@ -100,7 +100,7 @@ const Footer = () => {
       <div className="border-t border-gold/20">
         <div className="container mx-auto px-6 lg:px-12 py-8">
           <p className="text-center text-primary-foreground/60 text-sm max-w-4xl mx-auto leading-relaxed">
-            LUXORA TEXTILES operates under global standards for textile durability and thread-count accuracy. 
+            DENIM FABRIC operates under global standards for textile durability and thread-count accuracy. 
             Our materials are sourced from certified mills worldwide, ensuring exceptional quality, 
             sustainability, and compliance with international textile regulations.
           </p>
@@ -111,7 +111,7 @@ const Footer = () => {
       <div className="border-t border-gold/20">
         <div className="container mx-auto px-6 lg:px-12 py-6">
           <p className="text-center text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} LUXORA TEXTILES. All rights reserved.
+            © {new Date().getFullYear()} DENIM FABRIC. All rights reserved.
           </p>
         </div>
       </div>
