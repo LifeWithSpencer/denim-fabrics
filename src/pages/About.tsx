@@ -24,7 +24,7 @@ const About = () => {
               Our Story
             </span>
             <h1 className="font-serif text-4xl md:text-6xl font-bold text-primary-foreground mb-6">
-              About LUXORA TEXTILES
+              About DENIM FABRIC
             </h1>
             <p className="text-primary-foreground/80 text-lg">
               A legacy of excellence in premium textiles
@@ -45,7 +45,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <span className="text-gold text-sm uppercase tracking-[0.3em] mb-4 block">
-                Welcome to LUXORA
+                Welcome to DENIM FABRIC
               </span>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-8 leading-tight">
                 Your Trusted Destination for Premium-Quality Textiles
@@ -53,12 +53,12 @@ const About = () => {
               
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  LUXORA TEXTILES is your trusted destination for premium-quality textiles, 
+                  DENIM FABRIC is your trusted destination for premium-quality textiles, 
                   offering a beautifully curated selection that inspires creativity and elevates 
                   every sewing, design, and décor project.
                 </p>
                 <p>
-                  With a passion for fine materials and exceptional craftsmanship, LUXORA TEXTILES 
+                  With a passion for fine materials and exceptional craftsmanship, DENIM FABRIC 
                   brings together textiles that combine style, durability, and timeless beauty.
                 </p>
                 <p>
@@ -89,9 +89,9 @@ const About = () => {
               className="relative"
             >
               <div className="relative">
-                <img
+              <img
                   src={backgroundImage2}
-                  alt="LUXORA Textiles Collection"
+                  alt="DENIM FABRIC Collection"
                   className="w-full h-[500px] object-cover shadow-xl"
                 />
                 {/* Decorative Border */}
@@ -115,9 +115,9 @@ const About = () => {
               className="relative order-2 lg:order-1"
             >
               <div className="relative">
-                <img
+              <img
                   src={backgroundImage1}
-                  alt="LUXORA Expert Service"
+                  alt="DENIM FABRIC Expert Service"
                   className="w-full h-[500px] object-cover shadow-xl"
                 />
                 {/* Decorative Border */}
@@ -142,7 +142,7 @@ const About = () => {
               
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  At LUXORA TEXTILES, we believe great service is just as important as great fabric. 
+                  At DENIM FABRIC, we believe great service is just as important as great fabric. 
                   Our knowledgeable team is always ready to assist whether you need help selecting 
                   the right material, exploring design ideas, or finding inspiration for your next project.
                 </p>
@@ -186,7 +186,7 @@ const About = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-              Experience the LUXORA Difference
+              Experience the DENIM FABRIC Difference
             </h2>
             <p className="text-primary-foreground/70 text-lg mb-10">
               Visit our showroom or contact us to discover how our premium textiles 

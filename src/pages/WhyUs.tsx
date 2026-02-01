@@ -95,7 +95,7 @@ const WhyUs = () => {
               Our Commitment
             </span>
             <h1 className="font-serif text-4xl md:text-6xl font-bold text-primary-foreground mb-6">
-              Why Choose LUXORA
+              Why Choose DENIM FABRIC
             </h1>
             <p className="text-primary-foreground/80 text-lg">
               Unparalleled quality, service, and value in premium textiles
@@ -161,7 +161,7 @@ const WhyUs = () => {
             </h2>
             <div className="section-divider mb-8" />
             <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
-              At LUXORA TEXTILES, we operate with unwavering principles that ensure 
+              At DENIM FABRIC, we operate with unwavering principles that ensure 
               every customer receives exceptional value and service.
             </p>
           </motion.div>
@@ -212,7 +212,7 @@ const WhyUs = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  LUXORA TEXTILES operates under global standards for textile durability 
+                  DENIM FABRIC operates under global standards for textile durability 
                   and thread-count accuracy. Our materials are sourced from certified mills 
                   worldwide, ensuring exceptional quality, sustainability, and compliance 
                   with international textile regulations.
@@ -279,10 +279,10 @@ const WhyUs = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-              Experience LUXORA Quality
+              Experience DENIM FABRIC Quality
             </h2>
             <p className="text-primary-foreground/70 text-lg mb-10">
-              Join thousands of satisfied customers who trust LUXORA TEXTILES 
+              Join thousands of satisfied customers who trust DENIM FABRIC 
               for their premium fabric needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

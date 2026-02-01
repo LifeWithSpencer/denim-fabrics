@@ -46,10 +46,10 @@ const Navbar = () => {
           <Link to="/" className="group">
             <div className="flex flex-col">
               <span className="font-serif text-2xl md:text-3xl font-bold tracking-wider text-primary-foreground">
-                LUXORA
+                DENIM
               </span>
               <span className="text-xs md:text-sm tracking-[0.3em] text-gold uppercase">
-                Textiles
+                Fabric
               </span>
             </div>
           </Link>
